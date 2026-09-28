@@ -15,6 +15,18 @@ names, characters, places and quests are original.
 | ![Brineclaw Shore at dusk](docs/screenshots/coast_dusk.png) | ![Ashfang Hollow at night](docs/screenshots/ashfang_night.png) |
 | ![Grakk the Tunnelmaw](docs/screenshots/grakk_boss.png) | ![World map](docs/screenshots/world_map.png) |
 
+## Download and play (Windows, no Python needed)
+
+1. Download **`EmberWastes-v1.0.0-windows-x64.zip`** from the
+   [latest release](https://github.com/aoancea/ember-wastes/releases/latest).
+2. Right-click the zip and choose **Extract All**.
+3. Open the extracted `EmberWastes` folder and double-click **`EmberWastes.exe`**.
+
+The game isn't code-signed, so Windows may show *"Windows protected your PC"*. Click **More info → Run anyway**.
+The first launch takes a few extra seconds while the sounds are generated. Saves are stored in a `saves` folder next to the exe.
+
+To run from source instead, see [Setup](#setup) below.
+
 ## Features
 
 - **An open zone of about 640 x 770 units** with seven regions: Ashfang Hollow (orc start), Saltroot Isles (troll start),
