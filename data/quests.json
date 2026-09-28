@@ -1,0 +1,208 @@
+{
+  "quests": {
+    "o1": {
+      "title": "Rite of the Hollow", "race": "orc", "level": 1, "giver": "chieftain_brakka", "turn_in": "drillmaster_gorza",
+      "text": "So, you are awake at last. Every young orc of the Ashfang must prove they can hold a blade before they may call themselves one of us.\n\nGo to Drillmaster Hurga at the training grounds, east of the fire. Tell her the chieftain sent you.",
+      "objectives_text": "Speak with Drillmaster Hurga at the training grounds.",
+      "complete_text": "Ghorvash sent you? Then the old tusk thinks you have promise. We'll see. Grab a weapon - no, the sharp end goes that way.",
+      "objectives": [],
+      "rewards": {"xp": 80, "gold": 1}
+    },
+    "o2": {
+      "title": "Tusks and Hide", "race": "orc", "level": 1, "requires": ["o1"], "giver": "drillmaster_gorza", "turn_in": "drillmaster_gorza",
+      "text": "The dummies are for learning where to swing. The Rustback boars are for learning why.\n\nThey've been trampling our water stores and goring anyone who walks the northern trail. Kill six of them. Come back with fewer holes than they have.",
+      "objectives_text": "Kill 6 Rustback Boars in Ashfang Hollow and just outside it.",
+      "progress_text": "Still counting boars? They don't count themselves.",
+      "complete_text": "Six boars and you're still standing. Take this - clan-forged, not pretty, but it bites.",
+      "objectives": [{"type": "kill", "enemy": ["desert_boar"], "count": 6, "label": "Rustback Boars slain"}],
+      "rewards": {"xp": 220, "gold": 2, "items": {"warrior": "hollowforged_cleaver", "hunter": "sandwood_longbow", "shaman": "spiritbound_mace"}}
+    },
+    "o3": {
+      "title": "Stinger Venom", "race": "orc", "level": 2, "requires": ["o1"], "giver": "mother_ruska", "turn_in": "mother_ruska",
+      "text": "Sand scorpions nest where the canyon opens onto the flats. Their venom kills, yes, but boiled down with cactus pulp it makes the best fever tonic in the Wastes.\n\nBring me five venom sacs, and mind the tails.",
+      "objectives_text": "Collect 5 Scorpion Venom Sacs from Sand Scorpions near the canyon mouth.",
+      "progress_text": "Five sacs, child. The fevers won't wait for you.",
+      "complete_text": "Perfect. Some of these tonics are yours - drink one when the world starts spinning.",
+      "objectives": [{"type": "collect", "item": "venom_sac", "count": 5, "drop_from": ["sand_scorpion"], "chance": 0.65}],
+      "rewards": {"xp": 300, "gold": 3, "items": {"all": ["minor_healing_draught", "minor_healing_draught", "minor_healing_draught"]}}
+    },
+    "o4": {
+      "title": "Word to Redtusk", "race": "orc", "level": 3, "requires": ["o2", "o3"], "giver": "chieftain_brakka", "turn_in": "overseer_kazreth",
+      "text": "Bandits have been striking our caravans, and they fight like soldiers, not thieves. I don't like it.\n\nCarry this sealed message to Overseer Kazreth at Redtusk Post, to the north-east along the canyon road. You have earned the right to walk the Wastes as one of us.",
+      "objectives_text": "Deliver the Sealed Clan Message to Overseer Kazreth at Redtusk Post.",
+      "complete_text": "Ghorvash's seal. He's worried, and Ghorvash doesn't worry. Welcome to Redtusk, soldier. I have work for you.",
+      "start_items": ["clan_message"], "remove_items": ["clan_message"],
+      "objectives": [],
+      "rewards": {"xp": 250, "gold": 4}
+    },
+
+    "t1": {
+      "title": "Tide-Touched", "race": "troll", "level": 1, "giver": "elder_wazuko", "turn_in": "spearmaster_koru",
+      "text": "The spirits woke you with the tide, little one. Good. The tribe needs every spear.\n\nGo to Spearmaster Koru by the eastern huts. He will see if you are ready to hunt.",
+      "objectives_text": "Speak with Spearmaster Koru on the main island.",
+      "complete_text": "Wazuko sent you? Ha! Then you have your first lesson: never keep an elder waiting.",
+      "objectives": [],
+      "rewards": {"xp": 80, "gold": 1}
+    },
+    "t2": {
+      "title": "Pincers on the Sand", "race": "troll", "level": 1, "requires": ["t1"], "giver": "spearmaster_koru", "turn_in": "spearmaster_koru",
+      "text": "Brinepincer crabs swarm the beaches when the tide is low. They cut our nets and snap at the children.\n\nKill six of them. Crack their shells, and bring me back your pride.",
+      "objectives_text": "Kill 6 Brinepincer Crabs on the Saltroot beaches.",
+      "progress_text": "Crabs don't hunt themselves, hunter.",
+      "complete_text": "Good hunting! Here - a coral-tipped weapon from the tribe's store. May it serve you well.",
+      "objectives": [{"type": "kill", "enemy": ["brinepincer_crab"], "count": 6, "label": "Brinepincer Crabs slain"}],
+      "rewards": {"xp": 220, "gold": 2, "items": {"warrior": "coral_tipped_spear", "hunter": "sandwood_longbow", "shaman": "spiritbound_mace"}}
+    },
+    "t3": {
+      "title": "Driftwood for the Fires", "race": "troll", "level": 2, "requires": ["t1"], "giver": "tidecaller_nyassa", "turn_in": "tidecaller_nyassa",
+      "text": "Our spirit fires need wood, and the sea gives it freely - bleached and dry, washed up on the beaches.\n\nGather five bundles of driftwood from the shores of the isles. Look for the glimmer; the spirits mark what they offer.",
+      "objectives_text": "Gather 5 Driftwood Bundles from the Saltroot beaches.",
+      "progress_text": "The fires are hungry, little one.",
+      "complete_text": "The spirits thank you. Take these tonics - the tide shares its strength with those who share with it.",
+      "objectives": [{"type": "collect", "item": "driftwood_bundle", "count": 5, "object": "driftwood"}],
+      "rewards": {"xp": 300, "gold": 3, "items": {"all": ["minor_healing_draught", "minor_healing_draught", "minor_mana_draught"]}}
+    },
+    "t4": {
+      "title": "Across the Shallows", "race": "troll", "level": 3, "requires": ["t2", "t3"], "giver": "elder_wazuko", "turn_in": "overseer_kazreth",
+      "text": "The orcs of Redtusk Post gave us shelter when the storms drove us here. Carry this pearl offering to Overseer Kazreth, as a sign that the Saltroot remember.\n\nWalk the sandbar west to the mainland, then follow the road north-west. Watch for vultures.",
+      "objectives_text": "Deliver the Pearl Offering to Overseer Kazreth at Redtusk Post.",
+      "complete_text": "A pearl from the Saltroot? The tribe honours us. You come at a good time - I have work for a sharp-eyed troll.",
+      "start_items": ["pearl_offering"], "remove_items": ["pearl_offering"],
+      "objectives": [],
+      "rewards": {"xp": 250, "gold": 4}
+    },
+
+    "r0": {
+      "title": "The Trainer's Call", "level": 3, "requires_any": ["o4", "t4"], "giver": "overseer_kazreth", "turn_in": "@trainer",
+      "text": "You fight like someone who learned in the dirt. That will keep you alive for a while - but not forever.\n\nYour class trainer waits here in Redtusk. Go and learn what they can teach you.",
+      "objectives_text": "Speak with your class trainer in Redtusk Post.",
+      "complete_text": "So Kazreth sent you. Good. Let us see what you already know - and what you're ready to learn.",
+      "objectives": [],
+      "rewards": {"xp": 100, "gold": 2}
+    },
+    "r1": {
+      "title": "Wings of Ill Omen", "level": 3, "requires_any": ["o4", "t4"], "giver": "overseer_kazreth", "turn_in": "overseer_kazreth",
+      "text": "Dune vultures have gathered over the flats west and north of the post. Where they circle, something has died - and lately they circle over our patrols.\n\nThin their numbers. Eight should make the rest think twice.",
+      "objectives_text": "Kill 8 Dune Vultures on the Cinder Flats around Redtusk Post.",
+      "progress_text": "The sky is still full of them.",
+      "complete_text": "The sky is clearer already. Take this - you'll need better protection where you're going.",
+      "objectives": [{"type": "kill", "enemy": ["dune_vulture"], "count": 8, "label": "Dune Vultures slain"}],
+      "rewards": {"xp": 450, "gold": 5, "items": {"warrior": "boarhide_helm", "hunter": "hawkeye_bandana", "shaman": "tide_mask"}}
+    },
+    "r2": {
+      "title": "Scaled Hides", "level": 4, "requires_any": ["o4", "t4"], "giver": "tanner_grosh", "turn_in": "tanner_grosh",
+      "text": "Redscale lizards bask on the mesas east and west of the post. Their hide is tough and light - perfect for armor that doesn't cook you alive.\n\nBring me six supple hides. Skin them clean.",
+      "objectives_text": "Collect 6 Supple Lizard Hides from Redscale Lizards around the mesas.",
+      "progress_text": "Six hides. Supple, not shredded.",
+      "complete_text": "Now that's good leather. I stitched a vest from the last batch - it's yours.",
+      "objectives": [{"type": "collect", "item": "lizard_hide", "count": 6, "drop_from": ["cliff_lizard"], "chance": 0.6}],
+      "rewards": {"xp": 500, "gold": 6, "items": {"all": "scaled_lizardhide_vest"}}
+    },
+    "r3": {
+      "title": "The Burned Caravan", "level": 4, "requires_any": ["o4", "t4"], "giver": "scout_venka", "turn_in": "durza",
+      "text": "A water caravan left for the coast two days ago. It never arrived. Smoke rose along the eastern road last night.\n\nFollow the road south-east from the post and find out what happened. If anyone survived, help them.",
+      "objectives_text": "Find the caravan on the road south-east of Redtusk Post.",
+      "complete_text": "You... you're from Redtusk? Thank the ancestors. They came out of the dusk - raiders wearing the fang sigil. Soldiers, not bandits.",
+      "objectives": [{"type": "explore", "landmark": "burned_caravan", "label": "Burned caravan found"}],
+      "rewards": {"xp": 350, "gold": 3}
+    },
+    "r4": {
+      "title": "Survivor's Road", "level": 5, "requires": ["r3"], "giver": "durza", "turn_in": "overseer_kazreth",
+      "text": "I can walk, but not fight - not with this arm. The raiders are still out there, watching the road.\n\nGet me back to Redtusk Post. Kazreth needs to hear what I saw.",
+      "objectives_text": "Escort Durgha safely back to Redtusk Post.",
+      "progress_text": "Durgha is still out on the road?",
+      "complete_text": "Durgha made it - and you with her. Fang sigils, drilled like soldiers... Someone is organising the raiders. Here, you've earned this.",
+      "objectives": [{"type": "escort", "npc": "durza", "label": "Durgha escorted to Redtusk Post",
+                      "path": [[76, -146], [60, -132], [38, -116], [18, -104], [2, -94], [-6, -86]],
+                      "ambushes": [{"at": 1, "enemies": [["dustfang_raider", 5], ["dustfang_raider", 4]], "offset": [14, 8]},
+                                   {"at": 3, "enemies": [["dustfang_raider", 5], ["dustfang_raider", 5]], "offset": [-12, 10]}]}],
+      "rewards": {"xp": 650, "gold": 8, "items": {"warrior": "boarhide_leggings", "hunter": "sandrunner_pants", "shaman": "mystic_kilt"}}
+    },
+    "r5": {
+      "title": "Smugglers of Brineclaw", "level": 6, "requires": ["r4"], "giver": "overseer_kazreth", "turn_in": "overseer_kazreth",
+      "text": "The raiders get their weapons from somewhere. My scouts followed a cart to Brineclaw Shore, north-east on the coast - there's a smuggler camp in the dunes by an old wreck.\n\nBreak them. Eight of their cutthroats or sharpshooters should send a message.",
+      "objectives_text": "Kill 8 Brineclaw smugglers at the camp on Brineclaw Shore.",
+      "progress_text": "The smugglers are still in business, I hear.",
+      "complete_text": "The coast road will be quieter now. Good work. These boots came off a smuggler's cart - they're yours.",
+      "objectives": [{"type": "kill", "enemy": ["smuggler_cutthroat", "smuggler_sharpshooter"], "count": 8, "label": "Brineclaw smugglers slain"}],
+      "rewards": {"xp": 800, "gold": 10, "items": {"all": "crabshell_sabatons"}}
+    },
+    "r6": {
+      "title": "Stolen Stores", "level": 6, "requires": ["r4"], "giver": "quartermaster_hesk", "turn_in": "quartermaster_hesk",
+      "text": "Those smugglers have crates stamped with MY mark. Redtusk supplies - food, arrows, bandages - stolen off our own wagons.\n\nGo to Brineclaw Shore and bring back five of our crates. Look for the red stamp.",
+      "objectives_text": "Recover 5 Stolen Supply Crates from the Brineclaw smuggler camp.",
+      "progress_text": "My crates, please. Five of them.",
+      "complete_text": "My stamp, my crates, my arrows! Here - take your pick of the good stuff, and a few potions on the house.",
+      "objectives": [{"type": "collect", "item": "stolen_supplies", "count": 5, "object": "supply_crate"}],
+      "rewards": {"xp": 750, "gold": 10, "items": {"warrior": "brawlers_harness", "hunter": "dune_stalker_jerkin", "shaman": "spiritweave_robe",
+                                                  "all": ["healing_draught", "healing_draught"]}}
+    },
+    "r7": {
+      "title": "Captain Saltjaw", "level": 7, "requires": ["r5", "r6"], "giver": "overseer_kazreth", "turn_in": "overseer_kazreth",
+      "text": "The smugglers answer to one captain: Vessa Saltjaw. She runs the camp from the big tent by the shore.\n\nKill her, and search her body. Whoever is paying for these raids will have left a trail in her papers.",
+      "objectives_text": "Slay Captain Vessa Saltjaw and bring back her Sealed Orders.",
+      "progress_text": "Saltjaw still breathes?",
+      "complete_text": "These orders are stamped with a brand: a fanged maw over a gate. Warlord Rukhar. So the rumours are true - a warlord of the clans has turned on his own. His orders point to Scorchspine Ridge.",
+      "objectives": [{"type": "kill", "enemy": ["captain_saltjaw"], "count": 1, "label": "Captain Saltjaw slain"},
+                     {"type": "collect", "item": "sealed_orders", "count": 1, "drop_from": ["captain_saltjaw"], "chance": 1.0}],
+      "rewards": {"xp": 900, "gold": 15}
+    },
+    "r8": {
+      "title": "Scouting Scorchspine", "level": 7, "requires": ["r7"], "giver": "scout_venka", "turn_in": "outrider_tazh",
+      "text": "Scorchspine Ridge. Nobody goes there willingly - the beasts are big and mean, and the rock is hot enough to cook on.\n\nThe old watchtower in the pass would give you a view of the whole ridge. Scout it, then report to Outrider Tazh at the camp by the pass entrance, north of the dry riverbed.",
+      "objectives_text": "Scout the ruined Scorchspine Watchtower, then report to Outrider Tazh.",
+      "progress_text": "Did you see the watchtower?",
+      "complete_text": "Venka sent you up the pass alone? Brave or foolish, and there's not much difference out here. What did you see?",
+      "objectives": [{"type": "explore", "landmark": "scorch_watchtower", "label": "Scorchspine Watchtower scouted"}],
+      "rewards": {"xp": 500, "gold": 5}
+    },
+    "r9": {
+      "title": "Ridge Stalkers", "level": 7, "requires": ["r8"], "giver": "outrider_tazh", "turn_in": "outrider_tazh",
+      "text": "Something has driven the ridge beasts mad - basilisks and stingers pour down the pass and attack anything that moves.\n\nThin them out: five Ember-crest Basilisks and five Scorchspine Stingers. Then we can move on the mine.",
+      "objectives_text": "Kill 5 Ember-crest Basilisks and 5 Scorchspine Stingers in Scorchspine Ridge.",
+      "progress_text": "The pass is still crawling.",
+      "complete_text": "The pass is safer than it's been in weeks. You fight well. Take these - they walked a lot of ridge before you.",
+      "objectives": [{"type": "kill", "enemy": ["ridge_lizard"], "count": 5, "label": "Ember-crest Basilisks slain"},
+                     {"type": "kill", "enemy": ["ridge_scorpion"], "count": 5, "label": "Scorchspine Stingers slain"}],
+      "rewards": {"xp": 1000, "gold": 12, "items": {"warrior": "ironbound_greaves", "hunter": "swiftstrider_boots", "shaman": "ashwalker_boots"}}
+    },
+    "r10": {
+      "title": "Into Hollowfang Mine", "level": 8, "requires": ["r8"], "giver": "outrider_tazh", "turn_in": "outrider_tazh",
+      "text": "At the far end of the pass lies the Hollowfang Mine. Goblins dug it for copper years ago, and now they dig for the warlord - weapons, armor, who knows.\n\nGo in and kill ten of the Hollowfang goblins. Be careful - the deeper tunnels belong to something much bigger.",
+      "objectives_text": "Kill 10 Hollowfang Tunnelers or Geomancers inside Hollowfang Mine.",
+      "progress_text": "The mine still echoes with picks.",
+      "complete_text": "Ten fewer goblins digging for the warlord. And you came back. Most don't.",
+      "objectives": [{"type": "kill", "enemy": ["tunnel_goblin", "goblin_geomancer"], "count": 10, "label": "Hollowfang goblins slain"}],
+      "rewards": {"xp": 1100, "gold": 12, "items": {"warrior": "ember_crested_helm", "hunter": "smuggler_tricorn", "shaman": "seers_circlet"}}
+    },
+    "r11": {
+      "title": "Grakk the Tunnelmaw", "level": 9, "requires": ["r9", "r10"], "giver": "outrider_tazh", "turn_in": "outrider_tazh",
+      "text": "The goblins serve a beast they call Grakk the Tunnelmaw - a brute with a mouth big enough to swallow a wagon. The warlord gave it a brand of command; that's how he controls the mine.\n\nGo to the deepest cavern, kill Grakk, and take the Warlord's Brand. It is our key to the Ironmaw Gate.",
+      "objectives_text": "Slay Grakk the Tunnelmaw in the depths of Hollowfang Mine and take the Warlord's Brand.",
+      "progress_text": "Grakk still lives.",
+      "complete_text": "The Warlord's Brand... it's warm to the touch. With this we can walk right up to the Ironmaw Gate. You've done the impossible.",
+      "objectives": [{"type": "kill", "enemy": ["grakk"], "count": 1, "label": "Grakk the Tunnelmaw slain"},
+                     {"type": "collect", "item": "warlords_brand", "count": 1, "drop_from": ["grakk"], "chance": 1.0}],
+      "keep_items": ["warlords_brand"],
+      "rewards": {"xp": 1400, "gold": 20}
+    },
+    "r12": {
+      "title": "The Ironmaw Gate", "level": 9, "requires": ["r11"], "giver": "outrider_tazh", "turn_in": "gatewarden_ushka",
+      "text": "Warlord Rukhar Cinderjaw holds the Ironmaw Gate at the northern edge of the Wastes. From there his raiders strike at every clan.\n\nTake the Brand, follow the north road to the gate, and end him. Gatewarden Ushka was taken prisoner when the gate fell - if she lives, free her.",
+      "objectives_text": "Defeat Warlord Rukhar Cinderjaw at the Ironmaw Gate, then free Gatewarden Ushka.",
+      "progress_text": "The warlord still stands...",
+      "complete_text": "It's over. Rukhar is dead and the chains are broken. By the old oaths, I name you Warden-friend of the Ironmaw - the clans will sing of this. When you are ready, the gate will open for you.",
+      "objectives": [{"type": "kill", "enemy": ["warlord_rukhar"], "count": 1, "label": "Warlord Rukhar Cinderjaw defeated"}],
+      "remove_items": ["warlords_brand"],
+      "final": true,
+      "rewards": {"xp": 2000, "gold": 50, "items": {"all": ["healing_draught", "healing_draught", "healing_draught"]}}
+    }
+  },
+  "objects": {
+    "driftwood": {"name": "Driftwood Bundle", "model": "driftwood_bundle", "item": "driftwood_bundle", "quest": "t3", "respawn": 25,
+                  "positions": [[258, -254], [251, -283], [228, -293], [205, -280], [203, -250], [219, -236], [245, -236],
+                                [271, -233], [262, -294], [210, -310]]},
+    "supply_crate": {"name": "Stolen Supply Crate", "model": "supply_crate", "item": "stolen_supplies", "quest": "r6", "respawn": 25,
+                     "positions": [[144, 147], [152, 156], [169, 156], [177, 137], [157, 129], [147, 133], [164, 160], [139, 141]]}
+  }
+}

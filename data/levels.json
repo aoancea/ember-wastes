@@ -1,0 +1,20 @@
+{
+  "max_level": 10,
+  "xp_to_next": [0, 350, 600, 850, 1100, 1350, 1650, 1950, 2250, 2600],
+  "_xp_note": "xp_to_next[L] = experience needed to go from level L to L+1 (index 0 unused).",
+  "kill_xp": {"base": 25, "per_level": 12},
+  "_kill_xp_note": "Same-level kill XP = base + per_level * mob_level; scaled by level difference (grey mobs give 0).",
+  "level_up": {
+    "warrior": {"strength": 3, "stamina": 3, "agility": 1, "intellect": 0, "hp": 14, "resource": 0},
+    "hunter":  {"strength": 1, "stamina": 1, "agility": 3, "intellect": 1, "hp": 11, "resource": 8},
+    "shaman":  {"strength": 1, "stamina": 2, "agility": 0, "intellect": 3, "hp": 12, "resource": 12}
+  },
+  "_level_up_note": "Added to the character every level. 'hp' and 'resource' raise the base pools directly.",
+  "difficulty_colors": {
+    "grey":   [0.62, 0.62, 0.62],
+    "green":  [0.25, 0.85, 0.25],
+    "yellow": [1.00, 0.90, 0.20],
+    "orange": [1.00, 0.55, 0.15],
+    "red":    [1.00, 0.18, 0.15]
+  }
+}

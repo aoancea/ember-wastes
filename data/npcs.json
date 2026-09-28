@@ -1,0 +1,127 @@
+{
+  "chieftain_brakka": {
+    "name": "Chieftain Ghorvash", "title": "Ashfang Clan", "pos": [-195, -275], "face": [-176, -258],
+    "look": {"race": "orc", "skin": [0.30, 0.48, 0.22], "chest_style": "plate", "shirt": [0.35, 0.22, 0.14],
+             "shoulders": [0.55, 0.15, 0.10], "helmet": "horned", "helmet_color": [0.3, 0.25, 0.2], "beard": true,
+             "beard_color": [0.2, 0.18, 0.16], "cape": [0.55, 0.12, 0.08], "weapon": "greataxe", "scale": 1.12},
+    "greeting": "The Hollow tests every whelp who opens their eyes in it. Stand straight, and let me see what the sands made of you."
+  },
+  "drillmaster_gorza": {
+    "name": "Drillmaster Hurga", "title": "Training Grounds", "pos": [-146, -256], "face": [-156, -256],
+    "look": {"race": "orc", "skin": [0.40, 0.56, 0.28], "chest_style": "vest", "shirt": [0.45, 0.28, 0.16], "hair_style": "braids",
+             "bracers": [0.3, 0.3, 0.32], "weapon": "sword", "pants": [0.3, 0.2, 0.14]},
+    "greeting": "Feet apart. Weapon up. The dummies don't hit back, but the boars will. Show me you know the difference."
+  },
+  "mother_ruska": {
+    "name": "Mother Ruska", "title": "Clan Healer", "pos": [-190, -236], "face": [-176, -258],
+    "look": {"race": "orc", "skin": [0.42, 0.54, 0.32], "chest_style": "robe", "shirt": [0.48, 0.34, 0.24], "hair_style": "long",
+             "hair": [0.75, 0.74, 0.72], "headdress": [0.2, 0.55, 0.6], "weapon": "staff"},
+    "greeting": "Wounds, fevers, sunstroke - the desert gives us all three before breakfast. Sit, child, if you need tending."
+  },
+  "provisioner_tukk": {
+    "name": "Provisioner Tukk", "title": "Food & Supplies", "pos": [-167, -284], "face": [-176, -258],
+    "look": {"race": "orc", "chest_style": "tunic", "shirt": [0.55, 0.48, 0.32], "weapon": "ladle", "helmet": "bandana",
+             "helmet_color": [0.6, 0.2, 0.1]},
+    "greeting": "Haunches, water, a potion or two. Nothing fancy, but it keeps a warrior breathing.",
+    "vendor": ["roasted_haunch", "cactus_water", "minor_healing_draught", "minor_mana_draught", "tattered_leather_cap", "cracked_leather_boots"]
+  },
+
+  "elder_wazuko": {
+    "name": "Elder Wazuko", "title": "Saltroot Tribe", "pos": [236, -267], "face": [232, -262],
+    "look": {"race": "troll", "skin": [0.28, 0.46, 0.58], "hair": [0.9, 0.9, 0.9], "hair_style": "long", "chest_style": "robe",
+             "shirt": [0.25, 0.45, 0.35], "headdress": [0.9, 0.5, 0.15], "weapon": "staff", "weapon_color": [0.3, 0.9, 0.7]},
+    "greeting": "We crossed the grey water in hollow boats, little one. The orcs gave us these rocks to live on. We repay our debts."
+  },
+  "spearmaster_koru": {
+    "name": "Spearmaster Koru", "title": "Warband Trainer", "pos": [246, -255], "face": [232, -262],
+    "look": {"race": "troll", "skin": [0.32, 0.52, 0.66], "hair": [0.2, 0.6, 0.85], "chest_style": "bare", "weapon": "spear",
+             "shoulders": [0.8, 0.75, 0.6], "bracers": [0.5, 0.35, 0.2]},
+    "greeting": "Keep your knees soft and your spear sharp. The crabs here pinch hard enough to take a toe."
+  },
+  "tidecaller_nyassa": {
+    "name": "Tidecaller Nyassa", "title": "Spirit Speaker", "pos": [222, -268], "face": [232, -262],
+    "look": {"race": "troll", "skin": [0.30, 0.55, 0.60], "hair": [0.85, 0.3, 0.6], "hair_style": "braids", "chest_style": "robe",
+             "shirt": [0.2, 0.3, 0.55], "headdress": [0.3, 0.8, 0.8], "weapon": "staff"},
+    "greeting": "The tide brings gifts and takes them back. Listen, and you learn which is which."
+  },
+  "trader_malu": {
+    "name": "Trader Malu", "title": "Supplies", "pos": [229, -249], "face": [232, -262],
+    "look": {"race": "troll", "chest_style": "tunic", "shirt": [0.75, 0.55, 0.2], "helmet": "bandana", "helmet_color": [0.2, 0.5, 0.7]},
+    "greeting": "Fresh water, dried fish, smoked boar. And for the reckless, potions.",
+    "vendor": ["roasted_haunch", "cactus_water", "minor_healing_draught", "minor_mana_draught", "tattered_leather_cap", "cracked_leather_boots"]
+  },
+
+  "overseer_kazreth": {
+    "name": "Overseer Kazreth", "title": "Commander of Redtusk Post", "pos": [-10, -69], "face": [-10, -80],
+    "look": {"race": "orc", "skin": [0.34, 0.50, 0.26], "chest_style": "plate", "shirt": [0.45, 0.12, 0.10], "shoulders": [0.35, 0.33, 0.33],
+             "helmet": "spiked", "helmet_color": [0.35, 0.33, 0.33], "cape": [0.5, 0.1, 0.08], "weapon": "axe", "scale": 1.08},
+    "greeting": "Redtusk Post stands because we keep watch. Something is stirring out there, and I need every blade I can find."
+  },
+  "innkeeper_oshra": {
+    "name": "Mama Oshra", "title": "Innkeeper", "pos": [-33.6, -61.0], "face": [-28, -64],
+    "look": {"race": "orc", "skin": [0.45, 0.58, 0.32], "chest_style": "tunic", "shirt": [0.6, 0.35, 0.2], "hair_style": "long",
+             "hair": [0.3, 0.25, 0.2], "weapon": "ladle"},
+    "greeting": "Sit, eat, drink. Nobody fights in my inn - not unless they want to wash the pots for a month.",
+    "vendor": ["roasted_haunch", "cactus_water", "minor_healing_draught", "minor_mana_draught", "healing_draught"]
+  },
+  "tanner_grosh": {
+    "name": "Tanner Vorgul", "title": "Leatherworker", "pos": [-37, -83], "face": [-10, -80],
+    "look": {"race": "orc", "chest_style": "vest", "shirt": [0.5, 0.36, 0.22], "weapon": "dagger", "bracers": [0.4, 0.28, 0.18]},
+    "greeting": "Good hide makes good armor. Bad hide makes excuses."
+  },
+  "scout_venka": {
+    "name": "Scout Venka", "title": "Redtusk Outriders", "pos": [6, -50], "face": [-10, -80],
+    "look": {"race": "troll", "skin": [0.34, 0.5, 0.52], "hair": [0.95, 0.75, 0.2], "chest_style": "vest", "shirt": [0.35, 0.4, 0.25],
+             "helmet": "hood", "helmet_color": [0.35, 0.3, 0.2], "weapon": "bow"},
+    "greeting": "I've ridden every trail from the Hollow to the gate. Lately the trails ride back."
+  },
+  "quartermaster_hesk": {
+    "name": "Quartermaster Hesk", "title": "Arms & Armor", "pos": [5, -96], "face": [-10, -80],
+    "look": {"race": "orc", "chest_style": "plate", "shirt": [0.4, 0.4, 0.42], "helmet": "cap", "helmet_color": [0.4, 0.4, 0.42],
+             "weapon": "mace", "beard": true, "beard_color": [0.25, 0.2, 0.15]},
+    "greeting": "Steel, leather, and the odd potion. Pay in gold - IOUs go straight into the fire.",
+    "vendor": ["redtusk_warblade", "vulture_feather_bow", "totemwood_staff", "redtusk_chainmail", "sturdy_leather_leggings",
+               "cracked_leather_boots", "tattered_leather_cap", "minor_healing_draught", "healing_draught", "minor_mana_draught"]
+  },
+  "warmaster_drogan": {
+    "name": "Warmaster Koltrak", "title": "Warrior Trainer", "pos": [18, -73], "face": [-10, -80],
+    "look": {"race": "orc", "skin": [0.36, 0.50, 0.24], "chest_style": "plate", "shirt": [0.3, 0.3, 0.32], "shoulders": [0.6, 0.2, 0.12],
+             "weapon": "greataxe", "helmet": "horned", "helmet_color": [0.3, 0.3, 0.32]},
+    "greeting": "Strength is a habit. Come back when you've earned your next lesson - and bring gold.",
+    "trainer": "warrior"
+  },
+  "huntmaster_sika": {
+    "name": "Huntmaster Sika", "title": "Hunter Trainer", "pos": [21, -62], "face": [-10, -80],
+    "look": {"race": "troll", "skin": [0.3, 0.5, 0.6], "hair": [0.3, 0.85, 0.4], "chest_style": "vest", "shirt": [0.45, 0.35, 0.2],
+             "weapon": "bow", "helmet": "bandana", "helmet_color": [0.2, 0.4, 0.2]},
+    "greeting": "Wind, distance, patience. Learn those and the arrow does the rest.",
+    "trainer": "hunter"
+  },
+  "seer_umbala": {
+    "name": "Seer Makuna", "title": "Shaman Trainer", "pos": [-21, -98], "face": [-10, -80],
+    "look": {"race": "troll", "skin": [0.28, 0.48, 0.62], "hair": [0.95, 0.95, 0.95], "hair_style": "long", "chest_style": "robe",
+             "shirt": [0.5, 0.2, 0.45], "headdress": [0.9, 0.2, 0.2], "weapon": "staff", "weapon_color": [1.0, 0.6, 0.2]},
+    "greeting": "The spirits of fire, water and storm are old friends. They will teach you, if you pay attention - and pay me.",
+    "trainer": "shaman"
+  },
+  "durza": {
+    "name": "Durgha", "title": "Caravan Guard", "pos": [81, -150], "face": [84, -154],
+    "look": {"race": "orc", "skin": [0.40, 0.52, 0.30], "chest_style": "vest", "shirt": [0.3, 0.25, 0.2], "weapon": "axe",
+             "bracers": [0.5, 0.1, 0.1], "helmet": "bandana", "helmet_color": [0.6, 0.15, 0.1]},
+    "greeting": "Raiders... they came at dusk. Took the water, burned the rest. I can walk, just about.",
+    "wounded": true
+  },
+  "outrider_tazh": {
+    "name": "Outrider Tazh", "title": "Scorchspine Watch", "pos": [-62, 131], "face": [-100, 160],
+    "look": {"race": "orc", "skin": [0.38, 0.5, 0.26], "chest_style": "tunic", "shirt": [0.55, 0.3, 0.15], "weapon": "spear",
+             "helmet": "hood", "helmet_color": [0.45, 0.25, 0.12], "cape": [0.4, 0.2, 0.1]},
+    "greeting": "The pass burns hot by day and hotter by night. Whatever the warlord is hiding, it's up there."
+  },
+  "gatewarden_ushka": {
+    "name": "Gatewarden Ushka", "title": "Keeper of the Ironmaw", "pos": [-15, 331], "face": [0, 316],
+    "look": {"race": "orc", "skin": [0.36, 0.48, 0.26], "chest_style": "plate", "shirt": [0.25, 0.25, 0.28], "hair_style": "braids",
+             "shoulders": [0.3, 0.3, 0.32], "bracers": [0.2, 0.2, 0.2], "weapon": null},
+    "greeting": "They chained me to my own gate. Break the warlord, and I will open it for the clans once more.",
+    "captive": true
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "warrior": {
+    "name": "Warrior",
+    "description": "A front-line brawler who builds rage by hitting and being hit.",
+    "resource": "rage",
+    "base_stats": {
+      "strength": 24,
+      "agility": 18,
+      "intellect": 10,
+      "stamina": 23
+    },
+    "base_hp": 22,
+    "hp_per_stamina": 5.0,
+    "base_resource": 100,
+    "resource_per_int": 0,
+    "ap_per_strength": 2.0,
+    "ap_per_agility": 0.5,
+    "ranged_ap_per_agility": 1.0,
+    "crit_per_agility": 0.07,
+    "spell_crit_per_intellect": 0.0,
+    "spell_power_per_intellect": 0.0,
+    "attack_type": "melee",
+    "weapon_types": [
+      "axe",
+      "sword",
+      "mace",
+      "club",
+      "spear",
+      "greataxe"
+    ],
+    "abilities": [
+      "brutal_strike",
+      "tusk_rush",
+      "rending_gash",
+      "quake_stomp",
+      "undying_roar"
+    ],
+    "starting_gear": {
+      "weapon": "worn_hand_axe",
+      "chest": "frayed_hide_vest",
+      "legs": "patched_trousers",
+      "boots": "sandworn_wraps"
+    },
+    "starting_items": [
+      [
+        "roasted_haunch",
+        4
+      ]
+    ],
+    "look": {
+      "chest_style": "vest"
+    },
+    "damage_reduction": 0.08
+  },
+  "hunter": {
+    "name": "Hunter",
+    "description": "A ranged marksman who shoots from afar and calls a hyena to fight at their side.",
+    "resource": "mana",
+    "base_stats": {
+      "strength": 17,
+      "agility": 25,
+      "intellect": 15,
+      "stamina": 20
+    },
+    "base_hp": 20,
+    "hp_per_stamina": 4.5,
+    "base_resource": 30,
+    "resource_per_int": 5.0,
+    "ap_per_strength": 1.0,
+    "ap_per_agility": 1.0,
+    "ranged_ap_per_agility": 2.0,
+    "crit_per_agility": 0.09,
+    "spell_crit_per_intellect": 0.0,
+    "spell_power_per_intellect": 0.2,
+    "attack_type": "ranged",
+    "weapon_types": [
+      "bow"
+    ],
+    "abilities": [
+      "piercing_shot",
+      "venom_arrow",
+      "crippling_shot",
+      "arrow_storm",
+      "call_of_the_wild"
+    ],
+    "starting_gear": {
+      "weapon": "frayed_shortbow",
+      "chest": "frayed_hide_vest",
+      "legs": "patched_trousers",
+      "boots": "sandworn_wraps"
+    },
+    "starting_items": [
+      [
+        "roasted_haunch",
+        4
+      ],
+      [
+        "cactus_water",
+        2
+      ]
+    ],
+    "look": {
+      "chest_style": "vest",
+      "helmet": "bandana",
+      "helmet_color": [
+        0.55,
+        0.2,
+        0.14
+      ]
+    },
+    "damage_reduction": 0.0
+  },
+  "shaman": {
+    "name": "Shaman",
+    "description": "A spirit-caller who hurls lightning and fire, and mends wounds with the tides.",
+    "resource": "mana",
+    "base_stats": {
+      "strength": 18,
+      "agility": 16,
+      "intellect": 23,
+      "stamina": 21
+    },
+    "base_hp": 20,
+    "hp_per_stamina": 4.0,
+    "base_resource": 55,
+    "resource_per_int": 5.0,
+    "ap_per_strength": 2.0,
+    "ap_per_agility": 0.0,
+    "ranged_ap_per_agility": 0.0,
+    "crit_per_agility": 0.05,
+    "spell_crit_per_intellect": 0.08,
+    "spell_power_per_intellect": 1.0,
+    "attack_type": "melee",
+    "weapon_types": [
+      "mace",
+      "staff",
+      "club",
+      "axe"
+    ],
+    "abilities": [
+      "lightning_lash",
+      "searing_brand",
+      "tidal_mend",
+      "ember_totem",
+      "chain_spark"
+    ],
+    "starting_gear": {
+      "weapon": "knotted_staff",
+      "chest": "woven_robe",
+      "legs": "patched_trousers",
+      "boots": "sandworn_wraps"
+    },
+    "starting_items": [
+      [
+        "roasted_haunch",
+        3
+      ],
+      [
+        "cactus_water",
+        3
+      ]
+    ],
+    "look": {
+      "chest_style": "robe",
+      "headdress": [
+        0.65,
+        0.25,
+        0.15
+      ]
+    },
+    "damage_reduction": 0.0
+  }
+}

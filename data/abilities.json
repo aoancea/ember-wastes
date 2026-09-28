@@ -1,0 +1,604 @@
+{
+  "brutal_strike": {
+    "name": "Savage Chop",
+    "class": "warrior",
+    "level": 1,
+    "type": "weapon_strike",
+    "icon": {
+      "glyph": "axe",
+      "bg": [
+        0.62,
+        0.14,
+        0.08
+      ]
+    },
+    "cost": 12,
+    "cooldown": 3.0,
+    "range": "melee",
+    "cast_time": 0,
+    "description": "A savage blow that deals weapon damage plus {bonus}.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 1,
+        "price": 0,
+        "bonus": 10
+      },
+      {
+        "rank": 2,
+        "level": 4,
+        "price": 6,
+        "bonus": 20
+      },
+      {
+        "rank": 3,
+        "level": 8,
+        "price": 24,
+        "bonus": 34
+      }
+    ]
+  },
+  "tusk_rush": {
+    "name": "Tusk Rush",
+    "class": "warrior",
+    "level": 2,
+    "type": "charge",
+    "icon": {
+      "glyph": "charge",
+      "bg": [
+        0.55,
+        0.35,
+        0.1
+      ]
+    },
+    "cost": 0,
+    "cooldown": 14,
+    "range": 25,
+    "min_range": 7,
+    "cast_time": 0,
+    "usable_in_combat": false,
+    "description": "Rush at an enemy 7-25 yards away, stunning it for {stun} sec and generating {rage_gain} rage. Only usable out of combat.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 2,
+        "price": 3,
+        "rage_gain": 12,
+        "stun": 1.0
+      },
+      {
+        "rank": 2,
+        "level": 6,
+        "price": 14,
+        "rage_gain": 18,
+        "stun": 1.5
+      },
+      {
+        "rank": 3,
+        "level": 10,
+        "price": 35,
+        "rage_gain": 25,
+        "stun": 2.0
+      }
+    ]
+  },
+  "rending_gash": {
+    "name": "Rending Gash",
+    "class": "warrior",
+    "level": 4,
+    "type": "bleed",
+    "icon": {
+      "glyph": "claw",
+      "bg": [
+        0.6,
+        0.05,
+        0.05
+      ]
+    },
+    "cost": 10,
+    "cooldown": 8,
+    "range": "melee",
+    "cast_time": 0,
+    "description": "Tear open a wound that bleeds for {total} damage over {duration} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 4,
+        "price": 8,
+        "total": 30,
+        "duration": 12
+      },
+      {
+        "rank": 2,
+        "level": 8,
+        "price": 26,
+        "total": 64,
+        "duration": 12
+      }
+    ]
+  },
+  "quake_stomp": {
+    "name": "Quake Stomp",
+    "class": "warrior",
+    "level": 6,
+    "type": "stomp",
+    "icon": {
+      "glyph": "quake",
+      "bg": [
+        0.45,
+        0.3,
+        0.18
+      ]
+    },
+    "cost": 20,
+    "cooldown": 12,
+    "range": 0,
+    "radius": 8,
+    "cast_time": 0,
+    "description": "Slam the ground, dealing {min}-{max} damage to all enemies within 8 yards and slowing them by {slow_pct}% for {slow_time} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 6,
+        "price": 15,
+        "min": 18,
+        "max": 26,
+        "slow_pct": 40,
+        "slow_time": 6
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 38,
+        "min": 34,
+        "max": 46,
+        "slow_pct": 50,
+        "slow_time": 6
+      }
+    ]
+  },
+  "undying_roar": {
+    "name": "Undying Roar",
+    "class": "warrior",
+    "level": 8,
+    "type": "self_buff_heal",
+    "icon": {
+      "glyph": "roar",
+      "bg": [
+        0.7,
+        0.45,
+        0.05
+      ]
+    },
+    "cost": 15,
+    "cooldown": 60,
+    "range": 0,
+    "cast_time": 0,
+    "off_gcd": true,
+    "description": "Roar defiantly: heal {heal_pct}% of maximum health and take {dr_pct}% less damage for {duration} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 8,
+        "price": 25,
+        "heal_pct": 25,
+        "dr_pct": 20,
+        "duration": 10
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 40,
+        "heal_pct": 35,
+        "dr_pct": 25,
+        "duration": 12
+      }
+    ]
+  },
+  "piercing_shot": {
+    "name": "Splinter Shot",
+    "class": "hunter",
+    "level": 1,
+    "type": "ranged_shot",
+    "icon": {
+      "glyph": "arrow",
+      "bg": [
+        0.2,
+        0.45,
+        0.2
+      ]
+    },
+    "cost": 12,
+    "cooldown": 5,
+    "range": 32,
+    "cast_time": 0,
+    "description": "A powerful shot dealing weapon damage plus {bonus}.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 1,
+        "price": 0,
+        "bonus": 9
+      },
+      {
+        "rank": 2,
+        "level": 4,
+        "price": 6,
+        "bonus": 19
+      },
+      {
+        "rank": 3,
+        "level": 8,
+        "price": 24,
+        "bonus": 33
+      }
+    ]
+  },
+  "venom_arrow": {
+    "name": "Venom Arrow",
+    "class": "hunter",
+    "level": 2,
+    "type": "dot_shot",
+    "icon": {
+      "glyph": "venom",
+      "bg": [
+        0.25,
+        0.55,
+        0.1
+      ]
+    },
+    "cost": 15,
+    "cooldown": 9,
+    "range": 32,
+    "cast_time": 0,
+    "description": "Poison the target for {total} nature damage over {duration} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 2,
+        "price": 3,
+        "total": 32,
+        "duration": 12
+      },
+      {
+        "rank": 2,
+        "level": 6,
+        "price": 14,
+        "total": 62,
+        "duration": 12
+      },
+      {
+        "rank": 3,
+        "level": 10,
+        "price": 35,
+        "total": 96,
+        "duration": 12
+      }
+    ]
+  },
+  "crippling_shot": {
+    "name": "Tangleshot",
+    "class": "hunter",
+    "level": 4,
+    "type": "slow_shot",
+    "icon": {
+      "glyph": "chain",
+      "bg": [
+        0.3,
+        0.35,
+        0.55
+      ]
+    },
+    "cost": 18,
+    "cooldown": 12,
+    "range": 32,
+    "cast_time": 0,
+    "description": "Shoot for {bonus} damage and slow the target by {slow_pct}% for {slow_time} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 4,
+        "price": 8,
+        "bonus": 12,
+        "slow_pct": 50,
+        "slow_time": 8
+      },
+      {
+        "rank": 2,
+        "level": 8,
+        "price": 26,
+        "bonus": 26,
+        "slow_pct": 50,
+        "slow_time": 10
+      }
+    ]
+  },
+  "arrow_storm": {
+    "name": "Arrow Storm",
+    "class": "hunter",
+    "level": 6,
+    "type": "ground_barrage",
+    "icon": {
+      "glyph": "rain",
+      "bg": [
+        0.35,
+        0.3,
+        0.15
+      ]
+    },
+    "cost": 35,
+    "cooldown": 16,
+    "range": 32,
+    "radius": 7,
+    "cast_time": 0,
+    "description": "Rain arrows around the target: 3 volleys of {min}-{max} damage to enemies within 7 yards.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 6,
+        "price": 15,
+        "min": 9,
+        "max": 13,
+        "waves": 3
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 38,
+        "min": 17,
+        "max": 23,
+        "waves": 3
+      }
+    ]
+  },
+  "call_of_the_wild": {
+    "name": "Spirit Hyena",
+    "class": "hunter",
+    "level": 8,
+    "type": "summon",
+    "icon": {
+      "glyph": "paw",
+      "bg": [
+        0.55,
+        0.4,
+        0.15
+      ]
+    },
+    "cost": 40,
+    "cooldown": 75,
+    "range": 0,
+    "cast_time": 0,
+    "description": "Summon a hyena companion that fights your target for {duration} sec, biting for {min}-{max}.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 8,
+        "price": 25,
+        "duration": 25,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 40,
+        "duration": 35,
+        "min": 15,
+        "max": 21
+      }
+    ]
+  },
+  "lightning_lash": {
+    "name": "Lightning Lash",
+    "class": "shaman",
+    "level": 1,
+    "type": "spell_bolt",
+    "icon": {
+      "glyph": "bolt",
+      "bg": [
+        0.15,
+        0.3,
+        0.65
+      ]
+    },
+    "cost": 18,
+    "cooldown": 1.5,
+    "range": 30,
+    "cast_time": 1.8,
+    "school": "nature",
+    "description": "Hurl a bolt of lightning for {min}-{max} nature damage.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 1,
+        "price": 0,
+        "min": 14,
+        "max": 19,
+        "coef": 0.7
+      },
+      {
+        "rank": 2,
+        "level": 4,
+        "price": 6,
+        "min": 24,
+        "max": 31,
+        "coef": 0.7
+      },
+      {
+        "rank": 3,
+        "level": 8,
+        "price": 24,
+        "min": 38,
+        "max": 47,
+        "coef": 0.7
+      }
+    ]
+  },
+  "searing_brand": {
+    "name": "Searing Brand",
+    "class": "shaman",
+    "level": 2,
+    "type": "spell_dot",
+    "icon": {
+      "glyph": "flame",
+      "bg": [
+        0.7,
+        0.3,
+        0.05
+      ]
+    },
+    "cost": 20,
+    "cooldown": 8,
+    "range": 25,
+    "cast_time": 0,
+    "school": "fire",
+    "description": "Brand the target with fire for {hit} damage and {total} more over {duration} sec.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 2,
+        "price": 3,
+        "hit": 9,
+        "total": 22,
+        "duration": 12,
+        "coef": 0.4
+      },
+      {
+        "rank": 2,
+        "level": 6,
+        "price": 14,
+        "hit": 17,
+        "total": 44,
+        "duration": 12,
+        "coef": 0.4
+      },
+      {
+        "rank": 3,
+        "level": 10,
+        "price": 35,
+        "hit": 27,
+        "total": 70,
+        "duration": 12,
+        "coef": 0.4
+      }
+    ]
+  },
+  "tidal_mend": {
+    "name": "Tidal Mend",
+    "class": "shaman",
+    "level": 4,
+    "type": "heal",
+    "icon": {
+      "glyph": "drop",
+      "bg": [
+        0.1,
+        0.45,
+        0.55
+      ]
+    },
+    "cost": 30,
+    "cooldown": 3,
+    "range": 0,
+    "cast_time": 2.2,
+    "school": "nature",
+    "description": "Call on the tides to heal yourself for {min}-{max}.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 4,
+        "price": 8,
+        "min": 48,
+        "max": 58,
+        "coef": 1.2
+      },
+      {
+        "rank": 2,
+        "level": 8,
+        "price": 26,
+        "min": 92,
+        "max": 108,
+        "coef": 1.2
+      }
+    ]
+  },
+  "ember_totem": {
+    "name": "Ember Totem",
+    "class": "shaman",
+    "level": 6,
+    "type": "totem",
+    "icon": {
+      "glyph": "totem",
+      "bg": [
+        0.6,
+        0.2,
+        0.1
+      ]
+    },
+    "cost": 38,
+    "cooldown": 30,
+    "range": 0,
+    "cast_time": 0,
+    "school": "fire",
+    "description": "Plant a totem that spits fire at enemies within 20 yards every 2 sec for {duration} sec, dealing {min}-{max}.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 6,
+        "price": 15,
+        "duration": 20,
+        "min": 9,
+        "max": 13,
+        "coef": 0.25
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 38,
+        "duration": 24,
+        "min": 16,
+        "max": 22,
+        "coef": 0.25
+      }
+    ]
+  },
+  "chain_spark": {
+    "name": "Chain Spark",
+    "class": "shaman",
+    "level": 8,
+    "type": "chain",
+    "icon": {
+      "glyph": "chain_bolt",
+      "bg": [
+        0.3,
+        0.2,
+        0.6
+      ]
+    },
+    "cost": 42,
+    "cooldown": 10,
+    "range": 30,
+    "cast_time": 1.6,
+    "school": "nature",
+    "description": "Lightning that strikes the target for {min}-{max} and leaps to {jumps} more enemies.",
+    "ranks": [
+      {
+        "rank": 1,
+        "level": 8,
+        "price": 25,
+        "min": 36,
+        "max": 44,
+        "coef": 0.6,
+        "jumps": 2
+      },
+      {
+        "rank": 2,
+        "level": 10,
+        "price": 40,
+        "min": 48,
+        "max": 58,
+        "coef": 0.6,
+        "jumps": 3
+      }
+    ]
+  }
+}

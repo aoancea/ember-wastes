@@ -1,0 +1,2248 @@
+{
+ "zone_name": "Ember Wastes",
+ "regions": [
+  {
+   "id": "cinder_flats",
+   "name": "Cinder Flats",
+   "center": [
+    0,
+    -30
+   ],
+   "radius": 2000,
+   "priority": 0,
+   "levels": [
+    2,
+    6
+   ],
+   "map_label": [
+    40,
+    -20
+   ],
+   "description": "Open red-sand plains between the canyons and the sea."
+  },
+  {
+   "id": "ashfang_hollow",
+   "name": "Ashfang Hollow",
+   "center": [
+    -175,
+    -255
+   ],
+   "radius": 86,
+   "priority": 3,
+   "levels": [
+    1,
+    3
+   ],
+   "map_label": [
+    -175,
+    -255
+   ],
+   "description": "A walled canyon where young orcs of the clans are tested."
+  },
+  {
+   "id": "saltroot_isles",
+   "name": "Saltroot Isles",
+   "center": [
+    238,
+    -262
+   ],
+   "radius": 78,
+   "priority": 3,
+   "levels": [
+    1,
+    3
+   ],
+   "map_label": [
+    240,
+    -240
+   ],
+   "description": "Tidal islands settled by the sea-faring troll tribe."
+  },
+  {
+   "id": "redtusk_post",
+   "name": "Redtusk Post",
+   "center": [
+    -10,
+    -80
+   ],
+   "radius": 46,
+   "priority": 4,
+   "levels": [
+    3,
+    5
+   ],
+   "map_label": [
+    -10,
+    -80
+   ],
+   "description": "Crossroads outpost of the clans: trade, rest and orders."
+  },
+  {
+   "id": "scorchspine_ridge",
+   "name": "Scorchspine Ridge",
+   "center": [
+    -165,
+    185
+   ],
+   "radius": 112,
+   "priority": 2,
+   "levels": [
+    6,
+    8
+   ],
+   "map_label": [
+    -160,
+    205
+   ],
+   "description": "A blackened mountain pass stalked by dangerous beasts."
+  },
+  {
+   "id": "brineclaw_shore",
+   "name": "Brineclaw Shore",
+   "center": [
+    168,
+    128
+   ],
+   "radius": 74,
+   "priority": 3,
+   "levels": [
+    5,
+    7
+   ],
+   "map_label": [
+    175,
+    110
+   ],
+   "description": "Crab-infested beaches hiding a smuggler camp."
+  },
+  {
+   "id": "hollowfang_mine",
+   "name": "Hollowfang Mine",
+   "center": [
+    -236,
+    228
+   ],
+   "radius": 20,
+   "priority": 5,
+   "levels": [
+    7,
+    10
+   ],
+   "map_label": [
+    -236,
+    240
+   ],
+   "description": "An old mine, now a warren of tunnel goblins."
+  },
+  {
+   "id": "ironmaw_gate",
+   "name": "Ironmaw Gate",
+   "center": [
+    0,
+    318
+   ],
+   "radius": 62,
+   "priority": 3,
+   "levels": [
+    9,
+    10
+   ],
+   "map_label": [
+    0,
+    300
+   ],
+   "description": "The great northern fortress gate, seized by the rogue warlord."
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "burned_caravan",
+   "name": "Burned Caravan",
+   "pos": [
+    84,
+    -154
+   ],
+   "radius": 14
+  },
+  {
+   "id": "scorch_watchtower",
+   "name": "Scorchspine Watchtower",
+   "pos": [
+    -140,
+    178
+   ],
+   "radius": 14
+  },
+  {
+   "id": "brineclaw_camp",
+   "name": "Brineclaw Camp",
+   "pos": [
+    160,
+    142
+   ],
+   "radius": 20
+  },
+  {
+   "id": "dryfang_riverbed",
+   "name": "Dryfang Riverbed",
+   "pos": [
+    40,
+    8
+   ],
+   "radius": 18
+  },
+  {
+   "id": "sunscar_mesa",
+   "name": "Sunscar Mesa",
+   "pos": [
+    95,
+    55
+   ],
+   "radius": 26
+  },
+  {
+   "id": "vultures_rest",
+   "name": "Vulture's Rest",
+   "pos": [
+    -140,
+    -75
+   ],
+   "radius": 24
+  },
+  {
+   "id": "mine_entrance",
+   "name": "Hollowfang Mine Entrance",
+   "pos": [
+    -230,
+    225
+   ],
+   "radius": 10
+  }
+ ],
+ "terrain": {
+  "seed": 4242,
+  "plains_height": 6.0,
+  "coast": {
+   "base": 168,
+   "waves": [
+    [
+     18,
+     0.011,
+     0.5
+    ],
+    [
+     10,
+     0.029,
+     2.0
+    ]
+   ]
+  },
+  "edges": {
+   "west": -262,
+   "south": -334,
+   "north": 326,
+   "height": 52
+  },
+  "gate_notch": {
+   "x": 0,
+   "half_width": 36
+  },
+  "massifs": [
+   {
+    "center": [
+     -190,
+     255
+    ],
+    "radius": 96,
+    "height": 42
+   },
+   {
+    "center": [
+     -115,
+     318
+    ],
+    "radius": 72,
+    "height": 40
+   },
+   {
+    "center": [
+     -272,
+     168
+    ],
+    "radius": 62,
+    "height": 38
+   },
+   {
+    "center": [
+     -102,
+     216
+    ],
+    "radius": 44,
+    "height": 34
+   },
+   {
+    "center": [
+     -228,
+     118
+    ],
+    "radius": 42,
+    "height": 30
+   },
+   {
+    "center": [
+     -152,
+     128
+    ],
+    "radius": 36,
+    "height": 28
+   },
+   {
+    "center": [
+     -40,
+     352
+    ],
+    "radius": 40,
+    "height": 36
+   },
+   {
+    "center": [
+     150,
+     330
+    ],
+    "radius": 55,
+    "height": 34
+   },
+   {
+    "center": [
+     -300,
+     -170
+    ],
+    "radius": 45,
+    "height": 34
+   }
+  ],
+  "basins": [
+   {
+    "center": [
+     -175,
+     -255
+    ],
+    "floor": 5.0,
+    "inner": 56,
+    "outer": 76,
+    "wall": 30
+   }
+  ],
+  "mesas": [
+   {
+    "center": [
+     95,
+     55
+    ],
+    "radius": 24,
+    "height": 22
+   },
+   {
+    "center": [
+     -140,
+     -75
+    ],
+    "radius": 22,
+    "height": 20
+   },
+   {
+    "center": [
+     105,
+     225
+    ],
+    "radius": 26,
+    "height": 26
+   },
+   {
+    "center": [
+     -72,
+     -222
+    ],
+    "radius": 16,
+    "height": 17
+   },
+   {
+    "center": [
+     128,
+     -92
+    ],
+    "radius": 15,
+    "height": 16
+   },
+   {
+    "center": [
+     58,
+     160
+    ],
+    "radius": 13,
+    "height": 14
+   },
+   {
+    "center": [
+     60,
+     -232
+    ],
+    "radius": 18,
+    "height": 18
+   },
+   {
+    "center": [
+     -200,
+     30
+    ],
+    "radius": 20,
+    "height": 22
+   }
+  ],
+  "islands": [
+   {
+    "center": [
+     232,
+     -262
+    ],
+    "radius": 34,
+    "height": 5.5
+   },
+   {
+    "center": [
+     270,
+     -224
+    ],
+    "radius": 15,
+    "height": 3.0
+   },
+   {
+    "center": [
+     266,
+     -302
+    ],
+    "radius": 14,
+    "height": 3.5
+   },
+   {
+    "center": [
+     207,
+     -314
+    ],
+    "radius": 11,
+    "height": 2.5
+   },
+   {
+    "center": [
+     238,
+     175
+    ],
+    "radius": 16,
+    "height": 4.0
+   }
+  ],
+  "riverbeds": [
+   {
+    "points": [
+     [
+      -100,
+      98
+     ],
+     [
+      -72,
+      55
+     ],
+     [
+      -35,
+      28
+     ],
+     [
+      5,
+      14
+     ],
+     [
+      55,
+      6
+     ],
+     [
+      100,
+      -8
+     ],
+     [
+      140,
+      -24
+     ],
+     [
+      175,
+      -38
+     ],
+     [
+      205,
+      -46
+     ]
+    ],
+    "width": 13,
+    "depth": 3.2
+   }
+  ],
+  "paths": [
+   {
+    "id": "ashfang_road",
+    "road_width": 4.5,
+    "carve_width": 22,
+    "points": [
+     [
+      -175,
+      -255,
+      5.2
+     ],
+     [
+      -150,
+      -225,
+      5.5
+     ],
+     [
+      -128,
+      -198,
+      6.2
+     ],
+     [
+      -108,
+      -176,
+      6.8
+     ],
+     [
+      -85,
+      -150
+     ],
+     [
+      -50,
+      -115
+     ],
+     [
+      -25,
+      -95
+     ],
+     [
+      -10,
+      -80
+     ]
+    ]
+   },
+   {
+    "id": "saltroot_road",
+    "road_width": 4.0,
+    "carve_width": 0,
+    "points": [
+     [
+      -10,
+      -80
+     ],
+     [
+      30,
+      -110
+     ],
+     [
+      70,
+      -140
+     ],
+     [
+      110,
+      -178
+     ],
+     [
+      145,
+      -212
+     ],
+     [
+      166,
+      -236
+     ]
+    ]
+   },
+   {
+    "id": "sandbar",
+    "road_width": 0,
+    "carve_width": 14,
+    "points": [
+     [
+      156,
+      -236,
+      1.0
+     ],
+     [
+      170,
+      -243,
+      0.25
+     ],
+     [
+      184,
+      -250,
+      -0.45
+     ],
+     [
+      198,
+      -256,
+      -0.45
+     ],
+     [
+      208,
+      -259,
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "north_road",
+    "road_width": 5.0,
+    "carve_width": 0,
+    "points": [
+     [
+      -10,
+      -80
+     ],
+     [
+      -5,
+      -30
+     ],
+     [
+      0,
+      20
+     ],
+     [
+      5,
+      70
+     ],
+     [
+      10,
+      130
+     ],
+     [
+      8,
+      200
+     ],
+     [
+      4,
+      260
+     ],
+     [
+      0,
+      296
+     ]
+    ]
+   },
+   {
+    "id": "gate_approach",
+    "road_width": 6.0,
+    "carve_width": 26,
+    "points": [
+     [
+      0,
+      296,
+      10.0
+     ],
+     [
+      0,
+      314,
+      10.0
+     ],
+     [
+      0,
+      336,
+      10.0
+     ],
+     [
+      0,
+      352,
+      10.5
+     ],
+     [
+      0,
+      364,
+      12.0
+     ]
+    ]
+   },
+   {
+    "id": "brineclaw_road",
+    "road_width": 4.0,
+    "carve_width": 0,
+    "points": [
+     [
+      5,
+      70
+     ],
+     [
+      50,
+      92
+     ],
+     [
+      100,
+      112
+     ],
+     [
+      140,
+      126
+     ],
+     [
+      160,
+      136
+     ]
+    ]
+   },
+   {
+    "id": "pass_road",
+    "road_width": 4.5,
+    "carve_width": 26,
+    "points": [
+     [
+      10,
+      130
+     ],
+     [
+      -30,
+      136
+     ],
+     [
+      -62,
+      142,
+      11.0
+     ],
+     [
+      -100,
+      160,
+      13.0
+     ],
+     [
+      -135,
+      178,
+      16.0
+     ],
+     [
+      -170,
+      195,
+      19.0
+     ],
+     [
+      -205,
+      210,
+      21.0
+     ],
+     [
+      -230,
+      223,
+      22.0
+     ]
+    ]
+   }
+  ],
+  "pads": [
+   {
+    "id": "redtusk",
+    "center": [
+     -10,
+     -80
+    ],
+    "radius": 44,
+    "edge": 18,
+    "height": 7.0
+   },
+   {
+    "id": "gate_plaza",
+    "center": [
+     0,
+     312
+    ],
+    "radius": 40,
+    "edge": 16,
+    "height": 10.0
+   },
+   {
+    "id": "brineclaw_camp",
+    "center": [
+     160,
+     142
+    ],
+    "radius": 16,
+    "edge": 10,
+    "height": 2.2
+   },
+   {
+    "id": "scorch_camp",
+    "center": [
+     -140,
+     178
+    ],
+    "radius": 13,
+    "edge": 8,
+    "height": 16.0
+   },
+   {
+    "id": "caravan",
+    "center": [
+     84,
+     -154
+    ],
+    "radius": 9,
+    "edge": 8,
+    "height": null
+   },
+   {
+    "id": "mine_mouth",
+    "center": [
+     -232,
+     225
+    ],
+    "radius": 9,
+    "edge": 6,
+    "height": 22.0
+   }
+  ]
+ },
+ "spawns": [
+  {
+   "type": "training_dummy",
+   "levels": [
+    1,
+    1
+   ],
+   "points": [
+    [
+     -156,
+     -248,
+     270
+    ],
+    [
+     -156,
+     -255,
+     270
+    ],
+    [
+     -156,
+     -262,
+     270
+    ]
+   ],
+   "region": "ashfang_hollow"
+  },
+  {
+   "type": "desert_boar",
+   "levels": [
+    1,
+    1
+   ],
+   "center": [
+    -163,
+    -213
+   ],
+   "radius": 9,
+   "count": 4,
+   "region": "ashfang_hollow"
+  },
+  {
+   "type": "desert_boar",
+   "levels": [
+    1,
+    2
+   ],
+   "center": [
+    -112,
+    -168
+   ],
+   "radius": 22,
+   "count": 7
+  },
+  {
+   "type": "sand_scorpion",
+   "levels": [
+    2,
+    3
+   ],
+   "center": [
+    -78,
+    -140
+   ],
+   "radius": 22,
+   "count": 7
+  },
+  {
+   "type": "brinepincer_crab",
+   "levels": [
+    1,
+    1
+   ],
+   "center": [
+    232,
+    -262
+   ],
+   "radius": 36,
+   "count": 6
+  },
+  {
+   "type": "brinepincer_crab",
+   "levels": [
+    1,
+    2
+   ],
+   "center": [
+    270,
+    -224
+   ],
+   "radius": 12,
+   "count": 3
+  },
+  {
+   "type": "brinepincer_crab",
+   "levels": [
+    2,
+    2
+   ],
+   "center": [
+    266,
+    -302
+   ],
+   "radius": 10,
+   "count": 3
+  },
+  {
+   "type": "dune_vulture",
+   "levels": [
+    2,
+    3
+   ],
+   "center": [
+    150,
+    -236
+   ],
+   "radius": 18,
+   "count": 4
+  },
+  {
+   "type": "sand_scorpion",
+   "levels": [
+    2,
+    3
+   ],
+   "center": [
+    128,
+    -212
+   ],
+   "radius": 18,
+   "count": 4
+  },
+  {
+   "type": "dune_vulture",
+   "levels": [
+    3,
+    4
+   ],
+   "center": [
+    -84,
+    -18
+   ],
+   "radius": 26,
+   "count": 8
+  },
+  {
+   "type": "desert_boar",
+   "levels": [
+    3,
+    4
+   ],
+   "center": [
+    40,
+    -40
+   ],
+   "radius": 28,
+   "count": 6
+  },
+  {
+   "type": "cliff_lizard",
+   "levels": [
+    4,
+    5
+   ],
+   "center": [
+    128,
+    -92
+   ],
+   "radius": 24,
+   "count": 5
+  },
+  {
+   "type": "cliff_lizard",
+   "levels": [
+    4,
+    5
+   ],
+   "center": [
+    -140,
+    -75
+   ],
+   "radius": 28,
+   "count": 5
+  },
+  {
+   "type": "sand_scorpion",
+   "levels": [
+    4,
+    5
+   ],
+   "center": [
+    60,
+    -192
+   ],
+   "radius": 24,
+   "count": 5
+  },
+  {
+   "type": "dustfang_raider",
+   "levels": [
+    4,
+    5
+   ],
+   "points": [
+    [
+     93,
+     -163
+    ],
+    [
+     77,
+     -145
+    ],
+    [
+     90,
+     -144
+    ]
+   ]
+  },
+  {
+   "type": "desert_boar",
+   "levels": [
+    5,
+    6
+   ],
+   "center": [
+    80,
+    40
+   ],
+   "radius": 28,
+   "count": 5
+  },
+  {
+   "type": "cliff_lizard",
+   "levels": [
+    6,
+    7
+   ],
+   "center": [
+    60,
+    160
+   ],
+   "radius": 20,
+   "count": 4
+  },
+  {
+   "type": "sand_scorpion",
+   "levels": [
+    7,
+    8
+   ],
+   "center": [
+    18,
+    232
+   ],
+   "radius": 20,
+   "count": 5
+  },
+  {
+   "type": "brinepincer_crab",
+   "levels": [
+    5,
+    6
+   ],
+   "center": [
+    182,
+    88
+   ],
+   "radius": 24,
+   "count": 6,
+   "allow_water": false
+  },
+  {
+   "type": "brinepincer_crab",
+   "levels": [
+    5,
+    6
+   ],
+   "center": [
+    186,
+    190
+   ],
+   "radius": 20,
+   "count": 5
+  },
+  {
+   "type": "smuggler_cutthroat",
+   "levels": [
+    6,
+    7
+   ],
+   "points": [
+    [
+     154,
+     146
+    ],
+    [
+     166,
+     147
+    ],
+    [
+     150,
+     138
+    ],
+    [
+     171,
+     139
+    ],
+    [
+     158,
+     153
+    ],
+    [
+     144,
+     150
+    ],
+    [
+     176,
+     150
+    ]
+   ]
+  },
+  {
+   "type": "smuggler_sharpshooter",
+   "levels": [
+    6,
+    7
+   ],
+   "points": [
+    [
+     147,
+     144
+    ],
+    [
+     173,
+     145
+    ],
+    [
+     161,
+     128
+    ],
+    [
+     156,
+     159
+    ]
+   ]
+  },
+  {
+   "type": "captain_saltjaw",
+   "levels": [
+    8,
+    8
+   ],
+   "points": [
+    [
+     164,
+     126,
+     20
+    ]
+   ]
+  },
+  {
+   "type": "ridge_lizard",
+   "levels": [
+    6,
+    7
+   ],
+   "center": [
+    -100,
+    160
+   ],
+   "radius": 12,
+   "count": 4
+  },
+  {
+   "type": "ridge_scorpion",
+   "levels": [
+    7,
+    8
+   ],
+   "center": [
+    -162,
+    192
+   ],
+   "radius": 12,
+   "count": 5
+  },
+  {
+   "type": "ridge_lizard",
+   "levels": [
+    7,
+    8
+   ],
+   "center": [
+    -200,
+    207
+   ],
+   "radius": 10,
+   "count": 4
+  },
+  {
+   "type": "dune_vulture",
+   "levels": [
+    7,
+    7
+   ],
+   "center": [
+    -128,
+    176
+   ],
+   "radius": 18,
+   "count": 3
+  },
+  {
+   "type": "dustfang_raider",
+   "levels": [
+    7,
+    8
+   ],
+   "points": [
+    [
+     -133,
+     171
+    ],
+    [
+     -147,
+     186
+    ],
+    [
+     -151,
+     170
+    ]
+   ]
+  },
+  {
+   "type": "tunnel_goblin",
+   "levels": [
+    7,
+    7
+   ],
+   "points": [
+    [
+     -226,
+     219,
+     120
+    ],
+    [
+     -230,
+     214,
+     110
+    ]
+   ]
+  },
+  {
+   "type": "dustfang_raider",
+   "levels": [
+    9,
+    10
+   ],
+   "points": [
+    [
+     -15,
+     300
+    ],
+    [
+     15,
+     300
+    ],
+    [
+     -20,
+     321
+    ],
+    [
+     20,
+     321
+    ],
+    [
+     -8,
+     309
+    ],
+    [
+     8,
+     309
+    ],
+    [
+     0,
+     293
+    ],
+    [
+     -28,
+     306
+    ],
+    [
+     28,
+     306
+    ]
+   ]
+  },
+  {
+   "type": "warlord_rukhar",
+   "levels": [
+    10,
+    10
+   ],
+   "points": [
+    [
+     0,
+     327,
+     180
+    ]
+   ],
+   "quest_gated": "r12"
+  }
+ ],
+ "structures": [
+  {
+   "type": "bonfire",
+   "pos": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -200,
+    -282
+   ],
+   "face": [
+    -176,
+    -258
+   ],
+   "scale": 1.35
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -205,
+    -248
+   ],
+   "face": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -192,
+    -230
+   ],
+   "face": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -160,
+    -283
+   ],
+   "face": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -182,
+    -293
+   ],
+   "face": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -213,
+    -266
+   ],
+   "face": [
+    -176,
+    -258
+   ]
+  },
+  {
+   "type": "totem",
+   "pos": [
+    -190,
+    -268
+   ]
+  },
+  {
+   "type": "totem",
+   "pos": [
+    -163,
+    -246
+   ]
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    -150,
+    -262
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    -150,
+    -270
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -147,
+    -252
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -147,
+    -276
+   ]
+  },
+  {
+   "type": "drying_rack",
+   "pos": [
+    -201,
+    -237
+   ],
+   "yaw": 30
+  },
+  {
+   "type": "cook_pot",
+   "pos": [
+    -196,
+    -262
+   ]
+  },
+  {
+   "type": "brazier",
+   "pos": [
+    -172,
+    -242
+   ]
+  },
+  {
+   "type": "brazier",
+   "pos": [
+    -186,
+    -276
+   ]
+  },
+  {
+   "type": "watchtower",
+   "pos": [
+    -123,
+    -203
+   ]
+  },
+  {
+   "type": "watchtower",
+   "pos": [
+    -134,
+    -193
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -140,
+    -212
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -122,
+    -196
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    -209,
+    -256
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    -208,
+    -258.5
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    -171,
+    -290
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    -168,
+    -291
+   ]
+  },
+  {
+   "type": "palisade_ring",
+   "pos": [
+    -10,
+    -80
+   ],
+   "radius": 40,
+   "gaps": [
+    6,
+    127,
+    229
+   ],
+   "gap_width": 13
+  },
+  {
+   "type": "bonfire",
+   "pos": [
+    -10,
+    -80
+   ]
+  },
+  {
+   "type": "longhouse",
+   "pos": [
+    -28,
+    -64
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "forge",
+   "pos": [
+    15,
+    -68
+   ],
+   "yaw": -90
+  },
+  {
+   "type": "anvil",
+   "pos": [
+    11,
+    -74
+   ]
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    19,
+    -59
+   ],
+   "yaw": 0
+  },
+  {
+   "type": "tent",
+   "pos": [
+    6,
+    -100
+   ],
+   "yaw": 0,
+   "color": [
+    0.62,
+    0.3,
+    0.18,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    -20,
+    -104
+   ],
+   "yaw": 25,
+   "color": [
+    0.45,
+    0.42,
+    0.34,
+    1
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    23,
+    -91
+   ],
+   "face": [
+    -10,
+    -80
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    -37,
+    -95
+   ],
+   "face": [
+    -10,
+    -80
+   ]
+  },
+  {
+   "type": "orc_hut",
+   "pos": [
+    20,
+    -45
+   ],
+   "face": [
+    -10,
+    -80
+   ]
+  },
+  {
+   "type": "watchtower",
+   "pos": [
+    10,
+    -45.5
+   ]
+  },
+  {
+   "type": "watchtower",
+   "pos": [
+    -23.7,
+    -117.6
+   ]
+  },
+  {
+   "type": "well",
+   "pos": [
+    5,
+    -84
+   ]
+  },
+  {
+   "type": "totem",
+   "pos": [
+    -10,
+    -64
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    2,
+    -104
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    3.2,
+    -105.5
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    10,
+    -104
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    -24,
+    -108
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -4,
+    -42
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    12,
+    -42
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    20,
+    -106
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -38,
+    -104
+   ]
+  },
+  {
+   "type": "drying_rack",
+   "pos": [
+    -40,
+    -80
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "bonfire",
+   "pos": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "troll_hut",
+   "pos": [
+    222,
+    -248
+   ],
+   "face": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "troll_hut",
+   "pos": [
+    244,
+    -249
+   ],
+   "face": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "troll_hut",
+   "pos": [
+    246,
+    -275
+   ],
+   "face": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "troll_hut",
+   "pos": [
+    219,
+    -276
+   ],
+   "face": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "troll_hut",
+   "pos": [
+    233,
+    -285
+   ],
+   "face": [
+    232,
+    -262
+   ]
+  },
+  {
+   "type": "totem",
+   "pos": [
+    227,
+    -270
+   ]
+  },
+  {
+   "type": "totem",
+   "pos": [
+    241,
+    -257
+   ]
+  },
+  {
+   "type": "drying_rack",
+   "pos": [
+    214,
+    -262
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "cook_pot",
+   "pos": [
+    237,
+    -250
+   ]
+  },
+  {
+   "type": "dock",
+   "pos": [
+    257,
+    -262
+   ],
+   "yaw": 90,
+   "length": 14
+  },
+  {
+   "type": "campfire",
+   "pos": [
+    160,
+    142
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    150,
+    150
+   ],
+   "yaw": 120,
+   "color": [
+    0.42,
+    0.4,
+    0.36,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    170,
+    151
+   ],
+   "yaw": 200,
+   "color": [
+    0.45,
+    0.3,
+    0.25,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    152,
+    132
+   ],
+   "yaw": 60,
+   "color": [
+    0.4,
+    0.38,
+    0.33,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    167,
+    131
+   ],
+   "yaw": -60,
+   "scale": 1.4,
+   "color": [
+    0.25,
+    0.22,
+    0.25,
+    1
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    145,
+    142
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    146,
+    145
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    175,
+    141
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    174,
+    146
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    148,
+    138
+   ]
+  },
+  {
+   "type": "shipwreck",
+   "pos": [
+    197,
+    166
+   ],
+   "yaw": 25
+  },
+  {
+   "type": "dock",
+   "pos": [
+    184,
+    124
+   ],
+   "yaw": 90,
+   "length": 18
+  },
+  {
+   "type": "banner",
+   "pos": [
+    160,
+    156
+   ],
+   "color": [
+    0.12,
+    0.12,
+    0.14,
+    1
+   ]
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    156,
+    155
+   ],
+   "yaw": 10
+  },
+  {
+   "type": "stone_ruin",
+   "pos": [
+    -140,
+    178
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    -71,
+    127
+   ],
+   "yaw": 60,
+   "color": [
+    0.62,
+    0.3,
+    0.18,
+    1
+   ]
+  },
+  {
+   "type": "campfire",
+   "pos": [
+    -64,
+    133
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -60,
+    127
+   ]
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    -69,
+    137
+   ],
+   "yaw": 150
+  },
+  {
+   "type": "mine_entrance",
+   "pos": [
+    -238,
+    227
+   ],
+   "yaw": 117.5
+  },
+  {
+   "type": "wagon",
+   "pos": [
+    84,
+    -154
+   ],
+   "yaw": 30,
+   "burned": true
+  },
+  {
+   "type": "crate",
+   "pos": [
+    80,
+    -158
+   ]
+  },
+  {
+   "type": "crate",
+   "pos": [
+    89,
+    -150
+   ]
+  },
+  {
+   "type": "barrel",
+   "pos": [
+    87,
+    -159
+   ]
+  },
+  {
+   "type": "wagon",
+   "pos": [
+    76,
+    -148
+   ],
+   "yaw": -60,
+   "burned": true
+  },
+  {
+   "type": "ironmaw_gate",
+   "pos": [
+    0,
+    339
+   ],
+   "yaw": 0
+  },
+  {
+   "type": "bonfire",
+   "pos": [
+    0,
+    316
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    -24,
+    316
+   ],
+   "yaw": 90,
+   "color": [
+    0.35,
+    0.12,
+    0.1,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    24,
+    316
+   ],
+   "yaw": -90,
+   "color": [
+    0.35,
+    0.12,
+    0.1,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    -20,
+    298
+   ],
+   "yaw": 60,
+   "color": [
+    0.35,
+    0.12,
+    0.1,
+    1
+   ]
+  },
+  {
+   "type": "tent",
+   "pos": [
+    20,
+    298
+   ],
+   "yaw": -60,
+   "color": [
+    0.35,
+    0.12,
+    0.1,
+    1
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    -9,
+    327
+   ]
+  },
+  {
+   "type": "banner",
+   "pos": [
+    9,
+    327
+   ]
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    -14,
+    308
+   ],
+   "yaw": 90
+  },
+  {
+   "type": "weapon_rack",
+   "pos": [
+    14,
+    308
+   ],
+   "yaw": -90
+  },
+  {
+   "type": "brazier",
+   "pos": [
+    -12,
+    322
+   ]
+  },
+  {
+   "type": "brazier",
+   "pos": [
+    12,
+    322
+   ]
+  }
+ ],
+ "settlements": [
+  {
+   "id": "ashfang",
+   "center": [
+    -176,
+    -258
+   ],
+   "radius": 34
+  },
+  {
+   "id": "ashfang_exit",
+   "center": [
+    -128,
+    -198
+   ],
+   "radius": 12
+  },
+  {
+   "id": "redtusk",
+   "center": [
+    -10,
+    -80
+   ],
+   "radius": 44
+  },
+  {
+   "id": "saltroot",
+   "center": [
+    232,
+    -262
+   ],
+   "radius": 26
+  },
+  {
+   "id": "brineclaw",
+   "center": [
+    160,
+    142
+   ],
+   "radius": 22
+  },
+  {
+   "id": "scorch_ruin",
+   "center": [
+    -140,
+    178
+   ],
+   "radius": 12
+  },
+  {
+   "id": "outrider",
+   "center": [
+    -66,
+    132
+   ],
+   "radius": 10
+  },
+  {
+   "id": "mine",
+   "center": [
+    -235,
+    226
+   ],
+   "radius": 10
+  },
+  {
+   "id": "caravan",
+   "center": [
+    84,
+    -154
+   ],
+   "radius": 10
+  },
+  {
+   "id": "gate",
+   "center": [
+    0,
+    318
+   ],
+   "radius": 40
+  }
+ ]
+}
